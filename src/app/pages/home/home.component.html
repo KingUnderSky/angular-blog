@@ -4,11 +4,24 @@
 <app-title-bar></app-title-bar>
 <div class="container__articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card
+      [cardTitle]="'Homem de ferro voltou!'"
+      [cardDescription]="'Apesar de Thanos ter atacado o homem de ferro e feito a morte dele ocorrer, ele voltou a vida!'"
+      [photoCover]="'https://conteudo.imguol.com.br/c/entretenimento/96/2020/08/07/iron-man-1596813808466_v2_450x337.jpg.webp'"
+      ></app-big-card>
   </div>
   <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+    [cardtTitle]="'Ela voltou: A mulher Hulk está de volta'"
+    [photoCover]="'https://portalpopline.com.br/wp-content/uploads/2022/08/mulher-hulk-cronologia-mcu.jpg'"
+    ></app-small-card>
+    <app-small-card
+    [cardtTitle]="'O Goku vai vencer: Não houve ninguém capaz de derrotar ele.'"
+    [photoCover]="'https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/05/dragon-ball-super-1200x900-1.jpg'"
+    ></app-small-card>
+    <app-small-card
+    [cardtTitle]="'O Superman morreu...'"
+    [photoCover]="'https://i.ytimg.com/vi/UGdWz7m_cpY/maxresdefault.jpg'"
+    ></app-small-card>
   </div>
 </div>
