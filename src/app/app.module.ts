@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { TitleBarComponent } from './components/title-bar/title-bar.component';
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SmallCardComponent } from './components/small-card/small-card.component
     MenuBarComponent,
     TitleBarComponent,
     BigCardComponent,
-    SmallCardComponent
+    SmallCardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
